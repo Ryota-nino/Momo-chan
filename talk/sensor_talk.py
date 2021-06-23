@@ -44,7 +44,7 @@ while True:
         jtalk.jtalk(u'今日の天気は晴れです')
         time.sleep(1)
         # 最終的にtell_schedule()関数を入れ込む
-        jtalk.jtalk(u'今日の予定はミーティングです')
+        jtalk.jtalk(u'今日の予定は午後3時からミーティングです')
         break
     # elif (GPIO.input(GPIO_PIN) == GPIO.LOW):
     #     print('0')
